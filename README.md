@@ -14,7 +14,6 @@ Table Annotator is an annotation tool for table structure.
 
 ## Stop Table Annotator
 1. sudo service apache2 end
-[How_to_use_TableAnnotator.pdf]
 
 ## How to use
 1. Access http://localhost/table_annotator on your web browser.
