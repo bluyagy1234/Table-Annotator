@@ -14,10 +14,18 @@ Table Annotator is an annotation tool for table structure.
 
 ## Stop Table Annotator
 1. sudo service apache2 end
+[How_to_use_TableAnnotator.pdf](https://github.com/bluyagy1234/Table-Annotator/files/11624546/How_to_use_TableAnnotator.pdf)
 
 ## How to use
+1. Access http://localhost/table_annotator on your web browser.
+2. Upload the PDF.
+3. Specify the table area.
+4. Annotate the table structure.
+5. Download the output in tar.gz.
 
-## Output
+For more detailed, please read How_to_use_TableAnnotator.pdf
+
+## How to build the table image dataset
 
 ## Ubuntu info
 User name: table_annotator
