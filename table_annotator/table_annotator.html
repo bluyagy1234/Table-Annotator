@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Annotator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <div role="toolbar" id="toolbar">
+        <div id="pager">
+          <button data-pager="prev" title="Back to previous page.">Back</button>
+          <button data-pager="next" title="Forward to next page.">Next</button>
+          <input id="current-page" title="Move to specified page." type="text" value="1" min="1" max="1" size="2" style="text-align:right"/>
+          <span>/</span>
+          <span id="max-page" title="Final page."></span>
+        </div>
+        <div id="functions" class="functions" style="margin-left: auto;">
+          <button type="button" id="get-tokens" data-analyzer="get-tokens" title="Extract tokens in table.">Extract</button>
+          <button type="button" id="add-cell" data-analyzer="add-cell" title="Add cell.">Add</button>
+          <button type="button" id="save-str" data-analyzer="save-str" title="Save table structure as XML.">Save</button>
+          <button type="button" id="reset" data-analyzer="reset" title="Reset.">Reset</button>
+        </div>
+      </div>
+      <div style="display: flex;">
+        <div id="viewport-container"><div role="main" id="viewport"></div></div>
+        <div id="cell-list"></div>
+      </div>
+    </div>
+    <script src="pdf.min.js"></script>
+    <script src="jquery-3.5.0.min.js"></script>
+    <script src="pdf.worker.min.js"></script>
+    <script src="table_annotator.js"></script>
+    <script>
+      initialize();
+    </script>
+  </body>
+</html>

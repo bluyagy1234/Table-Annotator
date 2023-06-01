@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Upload PDF</title>
+</head>
+<body>
+<form action="/cgi-bin/upload_ta.py" method="POST" enctype="multipart/form-data">
+<input type="file" name="pdf" accept=".pdf", required><br>
+<input type="submit" value="Upload">
+</form>
+<form action="/cgi-bin/download.py" method="POST" enctype="multipart/form-data">
+<input type="submit" value="Download">
+</form>
+
+</body>
+</html>

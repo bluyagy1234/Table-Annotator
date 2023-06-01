@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 1000vh;
+}
+
+#toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #555;
+  color: #fff;
+  padding: 0.5em;
+}
+
+#toolbar button,
+#toolbar input,
+#toolbar label,
+#toolbar select,
+#page-mode input {
+  color: #000000;
+  background-color: #DDDDDD;
+  font: inherit;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 0.25em 0.5em;
+}
+
+#max-page {
+  font-weight: bold;
+}
+
+#toolbar button:hover,
+#toolbar button:focus,
+#toolbar input:hover,
+#toolbar input:focus,
+#toolbar select:hover,
+#toolbar select:focus,
+#page-mode input:hover,
+#page-mode input:focus {
+  font-weight: bold;
+}
+#page-mode {
+  display: flex;
+  align-items: center;
+  padding: 0.25em 0.5em;
+}
+
+#viewport-container {
+  flex: 1;
+  background: #eee;
+  overflow: auto;
+}
+
+#viewport {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#viewport > div {
+  text-align: center;
+  max-width: 80%;
+  position: relative;
+}
+
+#viewArea {
+  width: 100%;
+  box-shadow: 0 2px 5px gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cell-list {
+  width: 25%;
+}
