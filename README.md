@@ -22,10 +22,11 @@ Table Annotator is an annotation tool for table structure.
 4. Annotate the table structure.
 5. Download the output in tar.gz.
 
-For more detailed, please read (https://github.com/bluyagy1234/Table-Annotator/files/11624546/How_to_use_TableAnnotator.pdf).
+For more detailed, please read [How_to_use_TableAnnotator.pdf](https://github.com/bluyagy1234/Table-Annotator/files/11936079/How_to_use_TableAnnotator.pdf).
 
-## How to build the table image dataset
+## How to convert to table image dataset
 
 ## Ubuntu info
 User name: table_annotator
+
 password: ta
